@@ -105,7 +105,7 @@ global symbol
 global enable_sound
 
 # Get the values
-symbol = args.Symbol
+symbol = args.Symbol.upper()
 enable_sound = args.enable_sound
 update_interval = args.update_interval * 1000 
 
